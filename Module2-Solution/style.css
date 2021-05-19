@@ -68,14 +68,14 @@ h1 {
 }
 
 
-/********** Large devices only **********/
+/******** The Large Apparatus exclusively ********/
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-/********** Medium devices only **********/
+/******** The Medium Apparatus exclusively ********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
@@ -92,7 +92,7 @@ h1 {
     width: 100px;
   }
 }
-
+/******** The Small Apparatus exclusively ********/
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-12 {
   	float: left;
