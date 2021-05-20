@@ -11,7 +11,7 @@ h1 {
 
 body {
 	background-image: url("background.jpg");
-	background-color: #4aed65;
+	background-color:#289c90;
 
 }
 
@@ -31,7 +31,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #2fded5;
+	background-color: #1aede2;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -87,12 +87,12 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #05ff16;
-  color: #39fa7d;
+  background-color: #0e378a;
+  color: #0e378a;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #e9f7f4;
+  border: 1px solid #00ffc8;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
