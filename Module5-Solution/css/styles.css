@@ -2,7 +2,7 @@ body {
   font-size: 20px;
   color: #fff;
   background-color: #61122f;
-  font-family: Zapf Chancery, cursive;
+  font-family: "Monospace", Andale Mono, monospace;
 }
 
 /** The Header **/
