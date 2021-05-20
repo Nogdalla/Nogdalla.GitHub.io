@@ -31,7 +31,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: #2fded5;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -87,12 +87,12 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: #05ff16;
   color: #39fa7d;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #56db89;
+  border: 1px solid #e9f7f4;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
