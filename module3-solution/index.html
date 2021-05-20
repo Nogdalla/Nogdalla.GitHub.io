@@ -1,71 +1,87 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module 3 Coding Assignment (The Solution)</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  </head>
+	
+	<title>Module 2 Coding Assignment (The Solution)</title>
+</head>
 <body>
-  <header>
+    <header class="nav-header">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="navbar-brand "><p>Food, LLC</p></a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        </div><!-- navbar header -->
-
-        <div class="collapse navbar-collapse" id="collapsable-nav">
-          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li><a href="#beef">Beef</a></li>
-            <li><a href="#chicken">Chicken</a></li>
-            <li><a href="#sushi">Sushi</a></li>
-          </ul>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-item">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-item">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
+            </li>
+          </ul> 
         </div>
       </div>
     </nav>
-  </header>
-  <div class="container" id="main-content">
-    <h1 class="text-center" id="home">Our Menu</h1>
-    <section class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12"  id="chicken">
-      <article>
-        <h3 class="text-center">Chicken</h3>
-        <p>Chickens have a squat and rounded appearance.They stand less than 70 cm (27.6 inches) tall and weigh approximately 2.6 kg (5.7 pounds) on average. Males (called cocks or roosters) and females (hens) are known for their fleshy combs, lobed wattles hanging below the bill, and high-arched tails. In some roosters, the tail can extend more than 30 cm (12 inches) in length The chickens that saved Western civilization were discovered, according to legend, by the side of a road in Greece in the first decade of the fifth century B.C. The Athenian general Themistocles, on his way to confront the invading Persian forces. <a href="#home" class="visible-xs visible-sm">Back to top</a></p>
-        </article>
-      </div>
-    
+  	</header>
 
-    
-      <div id="beef" class="col-md-4 col-sm-6 col-xs-12">
-      <article>
-        <h3 class="text-center">Beef</h3>
-        <p>Beef, flesh of mature cattle, as distinguished from veal, the flesh of calves. The best beef is obtained from early maturing, special beef breeds. High-quality beef has firm, velvety, fine-grained lean, bright red in colour and well-marbled. The fat is smooth, creamy white, and well distributed. In young beef the bones are soft, porous, and red; the less desirable mature beef has hard white bones. Beef tenderness and flavour are improved by aging; in one common aging method the carcass is hung for about two weeks at approximately 36 °F (2 °C), encouraging physical changes in the muscle tissue that enhance the quality of the meat. <a href="#home" class="visible-xs visible-sm">Back to top</a></p>
-        </article>
-      </div>
-    
+	<h1 class="text-center">Our Menu</h1>
 
-    
-    
-      <div id="sushi" class="col-md-4 col-sm-12 col-xs-12">
-      <article>
-        <h3 class="text-center">Sushi</h3>
-        <p>For sushi at one of the best Japanese restaurants in Dubai, head to Akira Back. From Michelin-starred chef Akira Back, this restaurant at Palm Jumeirah’s W Dubai – The Palm is a top choice for sushi. The rolls are fantastic, our top pick is the Pop Rockin’ stuffed with spicy crab, cucumber and asparagus. The Japanese restaurant in Dubai also serves up excellent vegan dishes, including vegan sushi such as the vegan rainbow roll with marinated tomato, smoked mango, grilled asparagus, kombucha ponzu. The views across to Dubai Marina are stunning, and it’s also one of the most romantic restaurants in Dubai so ideal for a date night. <a href="#home" class="visible-xs visible-sm">Back to top</a></p>
-        </article>
-      </div>
-    </section>
-  </div>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+	<div class="row container container-fluid">
+	<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
+		<section>
+		<div id="chicken">
+			Chicken
+		</div>
+		<p>
+		 Chickens have a squat and rounded appearance.They stand less than 70 cm (27.6 inches) tall and weigh approximately 2.6 kg (5.7 pounds) on average. Males (called cocks or roosters) and females (hens) are known for their fleshy combs, lobed wattles hanging below the bill, and high-arched tails. In some roosters, the tail can extend more than 30 cm (12 inches) in length The chickens that saved Western civilization were discovered, according to legend, by the side of a road in Greece in the first decade of the fifth century B.C. The Athenian general Themistocles, on his way to confront the invading Persian forces.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
+		<section>
+		<div id="beef">
+			Beef
+		</div>
+		<p>
+			  Beef, flesh of mature cattle, as distinguished from veal, the flesh of calves. The best beef is obtained from early maturing, special beef breeds. High-quality beef has firm, velvety, fine-grained lean, bright red in colour and well-marbled. The fat is smooth, creamy white, and well distributed. In young beef the bones are soft, porous, and red; the less desirable mature beef has hard white bones. Beef tenderness and flavour are improved by aging; in one common aging method the carcass is hung for about two weeks at approximately 36 °F (2 °C), encouraging physical changes in the muscle tissue that enhance the quality of the meat.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+		<section>
+		<div id="sushi">
+			Sushi
+		</div>
+		<p>
+			 For sushi at one of the best Japanese restaurants in Dubai, head to Akira Back. From Michelin-starred chef Akira Back, this restaurant at Palm Jumeirah’s W Dubai – The Palm is a top choice for sushi. The rolls are fantastic, our top pick is the Pop Rockin’ stuffed with spicy crab, cucumber and asparagus. The Japanese restaurant in Dubai also serves up excellent vegan dishes, including vegan sushi such as the vegan rainbow roll with marinated tomato, smoked mango, grilled asparagus, kombucha ponzu. The views across to Dubai Marina are stunning, and it’s also one of the most romantic restaurants in Dubai so ideal for a date night.
+		</p>
+		</section>
+	</div>
+	</div>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
 </body>
 </html>
