@@ -5,13 +5,13 @@
 }
 
 h1 {
-	font-family: Brushstroke, fantasy;
+	font-family: "Monospace", Andale Mono, monospace;
 	color: #000000;
 }
 
 body {
 	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+	background-color: #6aad8f;
 
 }
 
@@ -88,7 +88,7 @@ section {
 #header-nav {
   border: 0;
   background-color: #FC5F06;
-  color: #FFFFFF;
+  color: #3ede96;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -100,11 +100,11 @@ section {
 }
 
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: #66de3e;
 }
 
 .nav-brand {
-  color: #FFFFFF;
+  color: #c9f0ed;
   font-size: 1.5em;
 }
 
