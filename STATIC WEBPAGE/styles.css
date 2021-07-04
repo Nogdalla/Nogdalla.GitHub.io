@@ -143,6 +143,7 @@
   background-image: url(images/rectangle_2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(50%);
 }
 .e46_749 {
   color: rgba(255, 255, 255, 1);
@@ -292,7 +293,7 @@
 .e46_782 {
   color: rgba(60.00000022351742, 77.00000301003456, 107.00000122189522, 1);
   position: absolute;
-  left: 1180px;
+  left: 1080px;
   top: 1281px;
   font-family: lato;
   text-align: center;
