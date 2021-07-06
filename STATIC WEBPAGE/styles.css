@@ -7,18 +7,15 @@
   right: 10px;
 }
 .e46_738 {
-  background-color: rgba(
-    9.000000413507223,
-    86.00000247359276,
-    102.00000151991844,
-    1
-  );
-  width: 1400px;
+  background-color: #095666;
+  width: 1415px;
   height: 92px;
   position: absolute;
   left: -10px;
   right: 10px;
   top: -12px;
+  box-shadow: 30px red;
+  z-index: 1;
 }
 .e46_739 {
   width: 75px;
@@ -29,6 +26,7 @@
   background-image: url(images/logo_1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 3;
 }
 .e46_740 {
   color: rgba(253.0000001192093, 235.0000011920929, 183.00000429153442, 1);
@@ -42,6 +40,7 @@
   font-size: 15px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_741 {
   color: rgba(253.0000001192093, 235.0000011920929, 183.00000429153442, 1);
@@ -55,6 +54,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_742 {
   color: rgba(255, 255, 255, 1);
@@ -68,6 +68,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_743 {
   color: rgba(255, 255, 255, 1);
@@ -81,6 +82,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_744 {
   color: rgba(255, 255, 255, 1);
@@ -94,6 +96,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_745 {
   color: rgba(255, 255, 255, 1);
@@ -107,6 +110,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_746 {
   color: rgba(255, 255, 255, 1);
@@ -120,6 +124,7 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_747 {
   color: rgba(255, 255, 255, 1);
@@ -133,17 +138,19 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: px;
+  z-index: 3;
 }
 .e46_748 {
-  width: 1400px;
-  height: 434px;
-  position: absolute;
+  width: 1415px;
+  height: 420px;
+  position: relative;
   left: -10px;
   top: 80px;
   background-image: url(images/rectangle_2.png);
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(50%);
+  z-index: 0;
 }
 .e46_749 {
   color: rgba(255, 255, 255, 1);
